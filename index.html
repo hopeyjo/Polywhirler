@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FROGGER</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src = "script.js"></script>
+</head>
+<body onload = "initialize()">
+<canvas id="canvas" width="650" height="850"></canvas>
+<p>
+    <button id = "instructions" type="button" onclick="showInstructions()">INSTRUCTIONS</button>
+    <button id = "restartTheGame" type="button" onclick="restartGame()">NEW GAME!</button>
+</p>
+<p id="instructionsList"></p>
+<button id = "noInstructions" type="button" onclick="closeInstructions()">ok, got it!</button>
+
+</body>
+</html>

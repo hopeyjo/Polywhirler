@@ -1,0 +1,28 @@
+canvas {
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+}
+body {
+    text-align: center;
+    background-color: black;
+}
+
+#instructions
+{
+    background-color: palegoldenrod;
+}
+
+#noInstructions
+{
+    visibility: hidden;
+    background-color: palegreen;
+}
+
+#restartTheGame
+{
+    background-color: pink;
+}
+
+
+
